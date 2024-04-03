@@ -7,7 +7,7 @@ public class Main {
         int sum = 0;
         int n = 100000;
 
-        // for loop to add prime numbers from 0 to 100 into primeList
+        // for loop to add prime numbers from 0 to n into primeList
         for (int i = 0; i < n; i++) {
             if (isPrime(i))
                 primeList.add(i);
